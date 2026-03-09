@@ -1,0 +1,16 @@
+[project]
+name = "serving-ml-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "altair==4.2.2",
+    "fastapi[standard]>=0.135.1",
+    "joblib>=1.5.3",
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
+    "requests>=2.32.5",
+    "scikit-learn==1.6.1",
+    "streamlit>=1.19.0",
+]
